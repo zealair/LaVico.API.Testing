@@ -17,6 +17,8 @@
 ### 门店列表 {brand}/Shops
 
 > code返回了多余的空格；省份勿出现省字、城市勿出现市字；经纬度无数据；需抓取邮编；需按城市搜索；
+> 
+> 返回的城市是NULL，这可能是一个bug
 
 ### 会员消费记录 {brand}/Member/Spending/{memberId}
 
