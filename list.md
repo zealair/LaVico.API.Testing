@@ -37,3 +37,7 @@
 ### 会员积分增减 {brand}/Point/Change
 
 > 需传输MEMO
+
+### 会员消费记录 {brand}/Member/Spending/{memberId}
+
+> 需增加产品图片URL
