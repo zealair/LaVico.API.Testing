@@ -6,55 +6,18 @@
 
 > 目前测试数据无MEMO；~~结果需按照时间倒序排列~~存储过程需要精确到时间
 
-### 会员所获优惠券的列表 {brand}/Coupon/GetCoupons
-
-> ~~需要显示MEMO~~
-
-### 领取优惠券 {brand}/Coupon/FetchCoupon
-
-> ~~需传输MEMO~~
-> 新增加参数 memo
-
 ### 门店列表 {brand}/Shops
 
-> _code返回了多余的空格；(测试数据库里既如此，我们删除空格，会导致错误)_
->
-> ~~省份勿出现省字、城市勿出现市字~~
->
-> 经纬度无数据；
->
-> _需抓取邮编；(CRM无此信息)_
->
-> ~~需按城市搜索；查询上海or上海市~~
+> 需按城市搜索；查询上海or上海市
 
 ### 会员消费记录 {brand}/Member/Spending/{memberId}
 
-> _哪个用户可以查消费记录？_ 
+> 9123084可以查询，结果内需要返回商品的PICURL
 
 ### 会员卡等级 {brand}/Member/Level/{memberId}
 
-> ~~等级代码表示的含义需列出~~
->
 > 01: 白卡，02:普通VIP卡，03：白金VIP卡
 
 ### 保存会员资料到CRM {brand}/Member/SaveInfo/{memberId}
 
-> ~~行业字段无效~~
->
-> 需确定行业、款式的定义及代号
->
-> （沟通中 ...，不过基本可以确定，这两个字段不是代号，自由输入）
-
-### 从CRM读取会员资料 {brand}/Member/Info/{memberId}
-
-> _无标签信息；_（无需标签信息）
-
-### 会员积分增减 {brand}/Point/Change
-
-> ~~需传输MEMO~~
-
-### 会员消费记录 {brand}/Member/Spending/{memberId}
-
-> 需增加产品图片URL
->
-> （沟通中）
+> 行业、款式的定义及代号自由输入
