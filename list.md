@@ -4,7 +4,7 @@
 
 ### 会员积分明细 {brand}/Point/Log/{memberId}
 
-> 目前测试数据无MEMO；~~结果需按照时间倒序排列~~
+> 目前测试数据无MEMO；~~结果需按照时间倒序排列~~存储过程需要精确到时间
 
 ### 会员所获优惠券的列表 {brand}/Coupon/GetCoupons
 
