@@ -1,10 +1,10 @@
 ### 优惠券活动列表 {brand}/Coupon/Promotions
 
-> 客户提供的xls内，并无type定义；~~测试数据请删除掉数组的情况~~
+> 客户提供的xls内，并无type定义；测试数据请删除掉数组的情况
 
 ### 会员积分明细 {brand}/Point/Log/{memberId}
 
-> 目前测试数据无MEMO；~~结果需按照时间倒序排列~~存储过程需要精确到时间
+> 存储过程需要精确到时间
 
 ### 门店列表 {brand}/Shops
 
