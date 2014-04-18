@@ -1,18 +1,19 @@
 ### 优惠券活动列表 {brand}/Coupon/Promotions
 
-> 客户提供的xls内，并无type定义；测试数据请删除掉数组的情况
+> 客户提供的xls内，并无type定义；~~测试数据请删除掉数组的情况~~
 
 ### 会员积分明细 {brand}/Point/Log/{memberId}
 
-> 目前测试数据无MEMO；结果需按照时间倒序排列
+> 目前测试数据无MEMO；~~结果需按照时间倒序排列~~
 
 ### 会员所获优惠券的列表 {brand}/Coupon/GetCoupons
 
-> 需要显示MEMO
+> ~~需要显示MEMO~~
 
 ### 领取优惠券 {brand}/Coupon/FetchCoupon
 
-> 需传输MEMO
+> ~~需传输MEMO~~
+> 新增加参数 memo
 
 ### 门店列表 {brand}/Shops
 
